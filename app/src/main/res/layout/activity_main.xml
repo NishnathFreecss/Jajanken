@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_YourChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_x="167dp"
+        android:layout_y="31dp"
+        android:text="Your choice"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_YourChoice"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_x="109dp"
+        android:layout_y="65dp"
+        app:srcCompat="@drawable/rock" />
+
+    <TextView
+        android:id="@+id/tv_OpponentChoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="152dp"
+        android:layout_y="190dp"
+        android:text="Opponent's Choice"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_OpponentChoice"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_x="111dp"
+        android:layout_y="229dp"
+        app:srcCompat="@drawable/paper" />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="138dp"
+        android:layout_y="362dp"
+        android:text="Score: You: 0 Opponent: 0" />
+
+    <Button
+        android:id="@+id/b_rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="430dp"
+        android:text="Rock" />
+
+    <Button
+        android:id="@+id/b_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="156dp"
+        android:layout_y="430dp"
+        android:text="Paper" />
+
+    <Button
+        android:id="@+id/b_scissors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="291dp"
+        android:layout_y="430dp"
+        android:text="Scissors" />
+
+</AbsoluteLayout>
